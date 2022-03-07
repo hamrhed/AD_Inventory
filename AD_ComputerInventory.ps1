@@ -19,9 +19,9 @@
 # NOTES:
 # 	1. Confirm you have installed underlying module - _____Install-Module ActiveDirectoryModule_____
 #	2. To rescan a computer, delete it's row from $filename
-#   3. Skips scanning all computers with "server" in $ComputerInfoOperatingSystem
+#	3. Skips scanning all computers with "server" in $ComputerInfoOperatingSystem
 #	4. Added EXCLUDE file to provide a way to skip hosts
-#	4. Schedule task to run every 3 hours using ```schtasks /create /tn test /tr "powershell -file <filename>.ps1" /sc minute 180 /it```
+#	5. Schedule task to run every 3 hours using ```schtasks /create /tn test /tr "powershell -file <filename>.ps1" /sc minute 180 /it```
 #
 ###############################################################################
 
